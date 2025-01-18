@@ -1,6 +1,6 @@
 import streamlit as st
 import openai
-import whisper  # For audio transcription
+import whisper
 import spacy
 import random
 from gtts import gTTS
