@@ -8,7 +8,7 @@ from gtts import gTTS
 import tempfile
 
 # Set OpenAI API Key securely
-openai.api_key = st.secrets[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]
+openai.api_key = st.secrets[secrets.OpenAPI]
 
 # Load SpaCy NLP model
 nlp = spacy.load("en_core_web_sm")
