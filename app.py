@@ -1,5 +1,6 @@
 import streamlit as st
 import openai
+pip install openai-whisper
 import whisper  # For audio transcription
 import spacy
 import random
